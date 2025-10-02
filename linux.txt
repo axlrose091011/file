@@ -1,0 +1,53 @@
+touch namafile.txt        # Membuat file kosong
+mkdir namafolder          # Membuat folder baru
+ls                        # Melihat daftar file/folder
+ls -l                     # Melihat detail file
+ls -a                     # Menampilkan file tersembunyi
+cd namafolder             # Masuk ke folder
+cd ..                     # Naik satu folder
+pwd                       # Menampilkan lokasi direktori
+rm namafile.txt           # Menghapus file
+rm -r namafolder          # Menghapus folder dan isinya
+cp file1.txt file2.txt    # Menyalin file
+cp -r folder1 folder2     # Menyalin folder
+mv file.txt /path/baru/   # Memindahkan file
+mv lama.txt baru.txt      # Mengganti nama file
+
+cat file.txt              # Menampilkan isi file
+less file.txt             # Membaca file panjang
+head -n 10 file.txt       # 10 baris pertama
+tail -n 10 file.txt       # 10 baris terakhir
+nano file.txt             # Edit dengan Nano
+vim file.txt              # Edit dengan Vim
+
+find /path -name "*.txt"  # Cari file .txt
+grep "kata" file.txt      # Cari kata dalam file
+which python3             # Lokasi program
+file namafile             # Tipe file
+du -sh folder/            # Ukuran folder
+df -h                     # Penggunaan disk
+
+whoami                    # Nama user login
+id                        # Info user & grup
+chmod 755 file.sh         # Ubah izin file
+chown user:grup file.txt  # Ubah pemilik file
+sudo perintah             # Jalankan dengan hak admin
+
+ps aux                    # Daftar proses
+top                       # Monitor proses real-time
+kill -9 PID               # Matikan proses
+uptime                    # Lama sistem hidup
+uname -a                  # Info kernel & OS
+free -h                   # Penggunaan RAM
+df -h                     # Disk usage
+
+ping google.com           # Cek koneksi
+curl http://example.com   # Ambil konten URL
+wget http://example.com   # Download file
+ifconfig / ip addr        # Info jaringan
+netstat -tulnp            # Port terbuka
+
+sudo apt update           # Update repo paket
+sudo apt upgrade          # Upgrade paket
+sudo apt install pkg      # Install paket
+sudo apt remove pkg       # Hapus paket
