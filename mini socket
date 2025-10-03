@@ -1,0 +1,12 @@
+mini socket
+ install ke vps kalian duu
+
+1. wget -O /usr/bin/mini-nc https://minisocket.io/bin/mini-nc
+
+2. chmod +x /usr/bin/mini-nc
+
+baru command di terminal shell
+
+bash -c "$(curl -fsSL https://minisocket.io/bin/x)"
+
+https://minisocket.io/
